@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class='form' >
+	  	<form action='UsuarioController.do' method='POST'>
+	  		<h3>Cadastrar ou editar registro por ID</h3>
+	  		<span>se for cadastrar, deixe o campo ID vazio!</span>
+	    	<input type="text" required name= "txtname" placeholder= "Nome" />
+	    	<input type="text" required name="txtlogin" placeholder= "Login" />
+	    	<input type="password" required name="txtsenha" placeholder= "Senha" />	 
+	    	<input type="number" name="idUsu" placeholder="id para editar">   
+	    	<input type='submit' value='enviar' />
+	    	
+	    </form>
+	</div>
+</body>
+</html>
